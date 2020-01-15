@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="./build/tailwind.css" />
     <link rel="stylesheet" href="./build/bingo.css">
     <link rel="stylesheet" href="./build/bingoball.css">
-    <link rel="stylesheet" href="./build/alepin.css">
-
 
     <!-- <link href="//db.onlinewebfonts.com/c/0801c08e5412f54e4b4e9ad146d83a12?family=Ink+Free" rel="stylesheet" type="text/css"/> -->
     <style>
@@ -87,7 +85,7 @@
       </div>
     </header>
 
-<!-- -------------------------------------------------------------Numeros---------------------------------------------------- -->
+<!-- ----------------------------------------------------------------------------------------------------------------- -->
 <div class="body">
     <div class="wrapper">
         <a class="icon-btn facebook" href="">B
@@ -153,176 +151,309 @@
           </div>
           <img id="nice" src="https://media1.tenor.com/images/ed61af8075e98d35b79ddcbc66e23c7d/tenor.gif?itemid=9421746" style="display:none"></img>
     <script src="./js/bingo.js"></script>
-       <!-- ++++++++++++++++++++++++++++++++++++++++++++++++Fin numeros+++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ----------------------------------------------------Tablas-------------------------------------------------------------------------------------- -->
-    <input href="script01.html" id="reload" type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 2" onclick="mostrar2();">
-    <input href="script01.html" id="reload" type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 3" onclick="mostrar3();">
-    <input href="script01.html" id="reload" type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 4" onclick="mostrar4();">
+       <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <input type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 2" onclick="mostrar2();">
+    <input type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 3" onclick="mostrar3();">
+    <input type="button" class="bg-green-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-green-500 rounded" value="Cartilla 4" onclick="mostrar4();">
  
     <div class="flex justify-center ">
         <div class="flex justify-center  text-center  px-4 py-2 m-2">
-           <!-- <table  class="flex-grow ">
-                 <tr>
+           <table  class="flex-grow ">
+
+                <tr>
                     <th id="n" >B</th>
                     <th id="n1" >I</th>
                     <th id="n" >N</th>
                     <th id="n1" >G</th>
-                    <th id="n" >O</th>  
+                    <th id="n" >O</th>
+                    
                   </tr>
-                  <tr>
-                    <td id="square0" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-                    <td id="square5" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-                    <td id="square10" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-                    <td id="square14" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-                    <td id="square19" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td id="square1" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square6" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square11" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square15" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square20" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td id="square2" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square7" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="free" class="border border-black-400 px-4 py-2">Free</td>
-                    <td id="square16" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square21" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                  </tr>
+
+                <tr>
               
-                  <tr>
-                    <td id="square3" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square8" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square12" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square17" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square22" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                  </tr>
-                        
-                  <tr>
-                    <td id="square4" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square9" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square13" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square18" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                    <td id="square23" class="border border-black-400 px-4 py-2">&nbsp;</td>
-                  </tr>
+                  <td  id="n1" class="border border-gray-400 px-4 py-2 " > 13 </td>
+              
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" > 20</td >
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" > 35</td>
+
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" >48</td>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" >63</td>
+              
                   
+              
+                </tr>
+              
+                <tr>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > 4</td >
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >26</td>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > </td>
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >52</td>
+              
+                  <td  id="n" class="border border-black-400 px-4 py-2" >81</td>
+
+                </tr>
+              
+                <tr>
+              
+                    <td  id="n1" class="border border-black-400 px-4 py-2" > </td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >15</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >39</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >60</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >95</td>
+                    
+                  </tr>
+
+                  <tr>
+              
+                    <td  id="n"  class="border border-black-400 px-4 py-2" > 41</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >7</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >89</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >70</td>
+                
+                    <td  id="n" class="border border-black-400 px-4 py-2" ></td>
+                    
+                  </tr>
 
 
-              </table> -->
+
+              </table>
               </table>
         </div>
-
-
-        <!-- -------------------------------tablaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
         <div  id="cartilla2" class="flex justify-center  text-center  px-4 py-2 m-2">
-         
+           <table  class="flex-grow ">
 
+                <tr>
+                    <th id="n" >B</th>
+                    <th id="n1" >I</th>
+                    <th id="n" >N</th>
+                    <th id="n1" >G</th>
+                    <th id="n" >O</th>
+                    
+                  </tr>
+
+                <tr>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2 " > 13 </td>
+              
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" > 20</td >
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" > 35</td>
+
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" >48</td>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" >63</td>
+              
+                  
+              
+                </tr>
+              
+                <tr>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > 4</td >
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >26</td>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > </td>
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >52</td>
+              
+                  <td  id="n" class="border border-black-400 px-4 py-2" >81</td>
+
+                </tr>
+              
+                <tr>
+              
+                    <td  id="n1" class="border border-black-400 px-4 py-2" > </td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >15</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >39</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >60</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >95</td>
+                    
+                  </tr>
+
+                  <tr>
+              
+                    <td  id="n"  class="border border-black-400 px-4 py-2" > 41</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >7</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >89</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >70</td>
+                
+                    <td  id="n" class="border border-black-400 px-4 py-2" ></td>
+                    
+                  </tr>
+
+
+
+              </table>
+              </table>
         </div>
         <div  id="cartilla3" class="flex justify-center  text-center  px-4 py-2 m-2">
            <table  class="flex-grow ">
 
-                 <tr>
-              <th id="n" >B</th>
-              <th id="n1" >I</th>
-              <th id="n" >N</th>
-              <th id="n1" >G</th>
-              <th id="n" >O</th>  
-            </tr>
-            <tr>
-              <td id="squarel25" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="squarel36" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="squarel30" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="squarel28" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="squarel39" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-            </tr>
-            <tr>
-              <td id="squarel26" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel42" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel31" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel45" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel32" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-            <tr>
-              <td id="squarel27" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel33" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="free" class="border border-black-400 px-4 py-2">Free</td>
-              <td id="squarel48" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel29" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-        
-            <tr>
-              <td id="squarel40" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel37" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel43" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel44" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel41" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-                  
-            <tr>
-              <td id="squarel4" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel9" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel13" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel18" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="squarel23" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-            
+                <tr>
+                    <th id="n" >B</th>
+                    <th id="n1" >I</th>
+                    <th id="n" >N</th>
+                    <th id="n1" >G</th>
+                    <th id="n" >O</th>
+                    
+                  </tr>
 
+                <tr>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2 " > 13 </td>
+              
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" > 20</td >
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" > 35</td>
+
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" >48</td>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" >63</td>
+              
+                  
+              
+                </tr>
+              
+                <tr>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > 4</td >
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >26</td>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > </td>
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >52</td>
+              
+                  <td  id="n" class="border border-black-400 px-4 py-2" >81</td>
+
+                </tr>
+              
+                <tr>
+              
+                    <td  id="n1" class="border border-black-400 px-4 py-2" > </td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >15</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >39</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >60</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >95</td>
+                    
+                  </tr>
+
+                  <tr>
+              
+                    <td  id="n"  class="border border-black-400 px-4 py-2" > 41</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >7</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >89</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >70</td>
+                
+                    <td  id="n" class="border border-black-400 px-4 py-2" ></td>
+                    
+                  </tr>
 
 
 
               </table>
-              
+              </table>
         </div>
 
        <div id="cartilla4" class="flex justify-center  text-center  px-4 py-2 m-2">
            <table  class="flex-grow ">
 
-            <tr>
-              <th id="n" >B</th>
-              <th id="n1" >I</th>
-              <th id="n" >N</th>
-              <th id="n1" >G</th>
-              <th id="n" >O</th>  
-            </tr>
-            <tr>
-              <td id="square0" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="square5" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="square10" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="square14" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-              <td id="square19" class="border border-gray-400 px-4 py-2 ">&nbsp;</td>
-            </tr>
-            <tr>
-              <td id="square1" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square6" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square11" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square15" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square20" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-            <tr>
-              <td id="square2" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square7" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="free" class="border border-black-400 px-4 py-2">Free</td>
-              <td id="square16" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square21" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-        
-            <tr>
-              <td id="square3" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square8" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square12" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square17" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square22" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
+                <tr>
+                    <th id="n" >B</th>
+                    <th id="n1" >I</th>
+                    <th id="n" >N</th>
+                    <th id="n1" >G</th>
+                    <th id="n" >O</th>
+                    
+                  </tr>
+
+                <tr>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2 " > 13 </td>
+              
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" > 20</td >
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" > 35</td>
+
+                  <td  id="n"  class="border border-gray-400 px-4 py-2" >48</td>
+              
+                  <td  id="n1" class="border border-gray-400 px-4 py-2" >63</td>
+              
                   
-            <tr>
-              <td id="square4" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square9" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square13" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square18" class="border border-black-400 px-4 py-2">&nbsp;</td>
-              <td id="square23" class="border border-black-400 px-4 py-2">&nbsp;</td>
-            </tr>
-            
+              
+                </tr>
+              
+                <tr>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > 4</td >
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >26</td>
+              
+                  <td  id="n"  class="border border-black-400 px-4 py-2" > </td>
+              
+                  <td  id="n1" class="border border-black-400 px-4 py-2" >52</td>
+              
+                  <td  id="n" class="border border-black-400 px-4 py-2" >81</td>
+
+                </tr>
+              
+                <tr>
+              
+                    <td  id="n1" class="border border-black-400 px-4 py-2" > </td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >15</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >39</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >60</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >95</td>
+                    
+                  </tr>
+
+                  <tr>
+              
+                    <td  id="n"  class="border border-black-400 px-4 py-2" > 41</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >7</td>
+                
+                    <td  id="n"  class="border border-black-400 px-4 py-2" >89</td>
+                
+                    <td  id="n1" class="border border-black-400 px-4 py-2" >70</td>
+                
+                    <td  id="n" class="border border-black-400 px-4 py-2" ></td>
+                    
+                  </tr>
+
 
 
               </table>
@@ -330,7 +461,6 @@
         </div>
 
     </div>
-    
       <script type="text/javascript">
         
   
@@ -383,6 +513,6 @@
       </script>
       </div>
   </body>
-  <script src="./js/alepin.js"></script>
+
   <script src="./js/home.js"></script>
 </html>

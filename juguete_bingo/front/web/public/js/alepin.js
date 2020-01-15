@@ -61,7 +61,7 @@ function anotherCard() {
   newCard();
   return false;
 }
-// color
+
 function toggleColor(evt) {
   if (evt) {
     var thisSquare = evt.target;
@@ -77,8 +77,6 @@ function toggleColor(evt) {
 
   checkWin();
 }
-// Color fin
-
 
 function checkWin() {
   var winningOption = -1;
